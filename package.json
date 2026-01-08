@@ -1,0 +1,16 @@
+{
+
+  "dependencies": {
+    "cypress": "^14.5.4"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^4.0.1"
+  },
+
+   "scripts": {
+    "test": "npx cypress  run ",
+      "headedTest": "npx cypress run --headed",
+      "chromeTest": "npm run test --browser chrome"
+
+}
+   }
